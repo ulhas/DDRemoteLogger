@@ -70,10 +70,10 @@ static NSString *loggerName = @"com.lumberjack.remotelogger";
 
 - (void)logMessage:(DDLogMessage *)logMessage
 {
-    NSString *logMsg = logMessage->logMsg;
+    NSString *logMsg = logMessage.message;
     
-    if (self->formatter)
-        logMsg = [self->formatter formatLogMessage:logMessage];
+    if (self->_logFormatter)
+        logMsg = [self->_logFormatter formatLogMessage:logMessage];
     
     if (logMsg)
     {

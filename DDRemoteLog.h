@@ -13,16 +13,14 @@
 
 //Define Custom Log Level
 
-#define LOG_FLAG_REMOTE     (1 << 5)  // 0...100000
+#define LOG_FLAG_REMOTE     (1 << 6)  // 0...1000000
 
-#define LOG_LEVEL_REMOTE    (LOG_FLAG_ERROR | LOG_FLAG_WARN | LOG_FLAG_INFO | LOG_FLAG_DEBUG | LOG_FLAG_VERBOSE | LOG_FLAG_REMOTE) //111111
+#define LOG_LEVEL_REMOTE    (LOG_FLAG_REMOTE | LOG_LEVEL_DEBUG)
 
-#define LOG_REMOTE          (LOG_LEVEL_DEF & LOG_FLAG_REMOTE)
+#define LOG_REMOTE          (ddLogLevel & LOG_FLAG_REMOTE)
 
-#define LOG_ASYNC_REMOTE    (YES && LOG_ASYNC_ENABLED)
+#define DDLogRemote(frmt, ...)   ASYNC_LOG_OBJC_MAYBE(ddLogLevel, LOG_FLAG_REMOTE,  0, frmt, ##__VA_ARGS__)
 
-#define DDLogRemote(frmt, ...) LOG_OBJC_MAYBE(LOG_ASYNC_REMOTE, LOG_LEVEL_DEF, LOG_FLAG_REMOTE, 0, frmt, ##__VA_ARGS__)
-
-#define DDLogCRemote(frmt, ...) LOG_C_MAYBE(LOG_ASYNC_REMOTE, LOG_LEVEL_DEF, LOG_FLAG_REMOTE, 0, frmt, ##__VA_ARGS__)
+#define DDLogRemote(frmt, ...)  ASYNC_LOG_C_MAYBE(ddLogLevel, LOG_FLAG_REMOTE,  0, frmt, ##__VA_ARGS__)
 
 #endif

@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		444D6A35D43644592691496E /* libPods-DDLogRemote (Example).a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF4AE6734E9EFD7428F5535 /* libPods-DDLogRemote (Example).a */; };
+		485145B81C0D510800FD0F9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 485145B71C0D510800FD0F9D /* main.m */; };
+		485145BB1C0D510800FD0F9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 485145BA1C0D510800FD0F9D /* AppDelegate.m */; };
+		485145BE1C0D510800FD0F9D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 485145BD1C0D510800FD0F9D /* ViewController.m */; };
+		485145C11C0D510800FD0F9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 485145BF1C0D510800FD0F9D /* Main.storyboard */; };
+		485145C31C0D510800FD0F9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 485145C21C0D510800FD0F9D /* Assets.xcassets */; };
+		485145C61C0D510800FD0F9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 485145C41C0D510800FD0F9D /* LaunchScreen.storyboard */; };
+		485145D51C0D56D300FD0F9D /* DDRemoteLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 485145D41C0D56D300FD0F9D /* DDRemoteLogger.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0AF4AE6734E9EFD7428F5535 /* libPods-DDLogRemote (Example).a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DDLogRemote (Example).a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		485145B31C0D510800FD0F9D /* DDLogRemote (Example).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DDLogRemote (Example).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		485145B71C0D510800FD0F9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		485145B91C0D510800FD0F9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		485145BA1C0D510800FD0F9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		485145BC1C0D510800FD0F9D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		485145BD1C0D510800FD0F9D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		485145C01C0D510800FD0F9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		485145C21C0D510800FD0F9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		485145C51C0D510800FD0F9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		485145C71C0D510800FD0F9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		485145D21C0D56D300FD0F9D /* DDRemoteLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDRemoteLog.h; path = ../../DDRemoteLog.h; sourceTree = "<group>"; };
+		485145D31C0D56D300FD0F9D /* DDRemoteLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDRemoteLogger.h; path = ../../DDRemoteLogger.h; sourceTree = "<group>"; };
+		485145D41C0D56D300FD0F9D /* DDRemoteLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDRemoteLogger.m; path = ../../DDRemoteLogger.m; sourceTree = "<group>"; };
+		6F22AE8D374086D838D3FF36 /* Pods-DDLogRemote (Example).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDLogRemote (Example).debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-DDLogRemote (Example)/Pods-DDLogRemote (Example).debug.xcconfig"; sourceTree = "<group>"; };
+		FBC11DF37920E42753D09251 /* Pods-DDLogRemote (Example).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDLogRemote (Example).release.xcconfig"; path = "../../Pods/Target Support Files/Pods-DDLogRemote (Example)/Pods-DDLogRemote (Example).release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		485145B01C0D510800FD0F9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				444D6A35D43644592691496E /* libPods-DDLogRemote (Example).a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		485145AA1C0D510800FD0F9D = {
+			isa = PBXGroup;
+			children = (
+				485145D11C0D56B900FD0F9D /* DDLogRemote */,
+				485145B51C0D510800FD0F9D /* DDLogRemote (Example) */,
+				485145B41C0D510800FD0F9D /* Products */,
+				B48FB7C654A1C0E3C7F4087B /* Pods */,
+				A3EFD4F46E50BA52119AD533 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		485145B41C0D510800FD0F9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				485145B31C0D510800FD0F9D /* DDLogRemote (Example).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		485145B51C0D510800FD0F9D /* DDLogRemote (Example) */ = {
+			isa = PBXGroup;
+			children = (
+				485145B91C0D510800FD0F9D /* AppDelegate.h */,
+				485145BA1C0D510800FD0F9D /* AppDelegate.m */,
+				485145BC1C0D510800FD0F9D /* ViewController.h */,
+				485145BD1C0D510800FD0F9D /* ViewController.m */,
+				485145BF1C0D510800FD0F9D /* Main.storyboard */,
+				485145C21C0D510800FD0F9D /* Assets.xcassets */,
+				485145C41C0D510800FD0F9D /* LaunchScreen.storyboard */,
+				485145C71C0D510800FD0F9D /* Info.plist */,
+				485145B61C0D510800FD0F9D /* Supporting Files */,
+			);
+			path = "DDLogRemote (Example)";
+			sourceTree = "<group>";
+		};
+		485145B61C0D510800FD0F9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				485145B71C0D510800FD0F9D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		485145D11C0D56B900FD0F9D /* DDLogRemote */ = {
+			isa = PBXGroup;
+			children = (
+				485145D21C0D56D300FD0F9D /* DDRemoteLog.h */,
+				485145D31C0D56D300FD0F9D /* DDRemoteLogger.h */,
+				485145D41C0D56D300FD0F9D /* DDRemoteLogger.m */,
+			);
+			name = DDLogRemote;
+			sourceTree = "<group>";
+		};
+		A3EFD4F46E50BA52119AD533 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AF4AE6734E9EFD7428F5535 /* libPods-DDLogRemote (Example).a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B48FB7C654A1C0E3C7F4087B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F22AE8D374086D838D3FF36 /* Pods-DDLogRemote (Example).debug.xcconfig */,
+				FBC11DF37920E42753D09251 /* Pods-DDLogRemote (Example).release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		485145B21C0D510800FD0F9D /* DDLogRemote (Example) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 485145CA1C0D510800FD0F9D /* Build configuration list for PBXNativeTarget "DDLogRemote (Example)" */;
+			buildPhases = (
+				A601302690AB596F5F874F20 /* Check Pods Manifest.lock */,
+				485145AF1C0D510800FD0F9D /* Sources */,
+				485145B01C0D510800FD0F9D /* Frameworks */,
+				485145B11C0D510800FD0F9D /* Resources */,
+				73CDEE976E6BB9B7DB7250B4 /* Embed Pods Frameworks */,
+				C6762B45900AE1791EBBD307 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DDLogRemote (Example)";
+			productName = "DDLogRemote (Example)";
+			productReference = 485145B31C0D510800FD0F9D /* DDLogRemote (Example).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		485145AB1C0D510800FD0F9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Ulhas Mandrawadkar";
+				TargetAttributes = {
+					485145B21C0D510800FD0F9D = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 485145AE1C0D510800FD0F9D /* Build configuration list for PBXProject "DDLogRemote (Example)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 485145AA1C0D510800FD0F9D;
+			productRefGroup = 485145B41C0D510800FD0F9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				485145B21C0D510800FD0F9D /* DDLogRemote (Example) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		485145B11C0D510800FD0F9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485145C61C0D510800FD0F9D /* LaunchScreen.storyboard in Resources */,
+				485145C31C0D510800FD0F9D /* Assets.xcassets in Resources */,
+				485145C11C0D510800FD0F9D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		73CDEE976E6BB9B7DB7250B4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../../Pods/Target Support Files/Pods-DDLogRemote (Example)/Pods-DDLogRemote (Example)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A601302690AB596F5F874F20 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C6762B45900AE1791EBBD307 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../../Pods/Target Support Files/Pods-DDLogRemote (Example)/Pods-DDLogRemote (Example)-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		485145AF1C0D510800FD0F9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485145BE1C0D510800FD0F9D /* ViewController.m in Sources */,
+				485145BB1C0D510800FD0F9D /* AppDelegate.m in Sources */,
+				485145B81C0D510800FD0F9D /* main.m in Sources */,
+				485145D51C0D56D300FD0F9D /* DDRemoteLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		485145BF1C0D510800FD0F9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				485145C01C0D510800FD0F9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		485145C41C0D510800FD0F9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				485145C51C0D510800FD0F9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		485145C81C0D510800FD0F9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		485145C91C0D510800FD0F9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		485145CB1C0D510800FD0F9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F22AE8D374086D838D3FF36 /* Pods-DDLogRemote (Example).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DDLogRemote (Example)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ulhas.DDLogRemote--Example-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		485145CC1C0D510800FD0F9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBC11DF37920E42753D09251 /* Pods-DDLogRemote (Example).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DDLogRemote (Example)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ulhas.DDLogRemote--Example-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		485145AE1C0D510800FD0F9D /* Build configuration list for PBXProject "DDLogRemote (Example)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				485145C81C0D510800FD0F9D /* Debug */,
+				485145C91C0D510800FD0F9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		485145CA1C0D510800FD0F9D /* Build configuration list for PBXNativeTarget "DDLogRemote (Example)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				485145CB1C0D510800FD0F9D /* Debug */,
+				485145CC1C0D510800FD0F9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 485145AB1C0D510800FD0F9D /* Project object */;
+}
