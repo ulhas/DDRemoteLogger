@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/ulhas/DDRemoteLogger.git", :tag => “1.0.0” }
   s.source_files  = "*.{h,m}"
   s.requires_arc = true
-  s.dependency      'CocoaLumberjack', '>= 1.6'
-  s.dependency      'CocoaAsyncSocket', '~> 7.3.4'
+  s.dependency      'CocoaLumberjack', '~> 2.2.0'
+  s.dependency      'CocoaAsyncSocket', '~> 7.4.2'
 end
