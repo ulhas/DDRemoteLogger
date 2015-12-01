@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Ulhas Mandrawadkar. All rights reserved.
 //
 
-#import <CocoaLumberjack/DDLog.h>
+#import <CocoaLumberjack/CocoaLumberjack.h>
 
 @interface DDRemoteLogger : DDAbstractLogger <DDLogger>
 

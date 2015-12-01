@@ -9,7 +9,7 @@
 #ifndef DDRemoteLogger_DDRemoteLog_h
 #define DDRemoteLogger_DDRemoteLog_h
 
-#import <CocoaLumberjack/DDLog.h>
+#import <CocoaLumberjack/CocoaLumberjack.h>
 
 //Define Custom Log Level
 
